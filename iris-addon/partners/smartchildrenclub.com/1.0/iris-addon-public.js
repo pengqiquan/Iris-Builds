@@ -67,28 +67,28 @@ function refresh_iris_addon_mode()
     }
     else if(mode == "deuteranopia")
     {
-        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/partners/smartchildrenclub.com/1.0/img/safe-eyes-on.png";
+        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/partners/smartchildrenclub.com/1.0/img/safe-eyes-deuteranopia.png";
 		document.getElementById("iris-widget-mode").title = "Deuteranopia";
 		pause_iris();
 		set_vision_mode("deuteranopia");
     }
     else if(mode == "protanopia")
     {
-        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/1.0/img/iris-protanopia.png";
+        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/1.0/img/safe-eyes-protanopia.png";
 		document.getElementById("iris-widget-mode").title = "Protanopia";
 		pause_iris();
 		set_vision_mode("protanopia");
     }
     else if(mode == "tritanopia")
     {
-        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/1.0/img/iris-tritanopia.png";
+        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/1.0/img/safe-eyes-tritanopia.png";
 		document.getElementById("iris-widget-mode").title = "Tritanopia";
 		pause_iris();
 		set_vision_mode("tritanopia");
     }
 	else if(mode == "paused")
     {
-        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/1.0/img/iris-off.png";
+        document.getElementById("iris-widget-img").src = "https://raw.githubusercontent.com/danielng01/Iris-Builds/master/iris-addon/1.0/img/safe-eyes-off.png";
 		document.getElementById("iris-widget-mode").title = "Paused";
 		pause_iris();
 		set_vision_mode("paused");
